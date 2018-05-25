@@ -3,7 +3,8 @@
 <html>
   <head>
     <title>Rick's site</title>
-    
+
+   <!-- Rick Roll    
     <style>
 .center {
   position: absolute;
@@ -12,7 +13,8 @@
   transform: translate(-50%, -50%);
 }
     </style>
-    
+-->    
+   
   </head>
   <body>
     <div class="center">
@@ -24,4 +26,211 @@
       <image src="http://www.netanimations.net/under-construction-flashing-barracade-animation.gif"></image>
     </div>
   </body>
+ 
+ <div class="col-md-6">
+        <div class="page-header text-center" style="margin-bottom: 20px; border: 0px;">
+          <h1>Richard Cushing</h1>
+          <p class="lead" style="margin-bottom: 9px;">Electrical/Robotics Engineer</p>
+          
+          <a href="https://www.linkedin.com/in/rcushing/">
+            <span class="label label-default">Previous</span>
+          </a>
+<-- Website labels         
+          <a href="http://skalabletech.com">
+            <span class="label label-primary">Skalable</span>
+          </a>
+          <a href="http://tinovation.org">
+            <span class="label label-success">Tinovation</span>
+          </a>
+          <a href="http://www.hshacks.com">
+            <span class="label label-info">HSHacks</span>
+          </a>
+        </div>
+-->
+        <ul class="nav nav-tabs" style="margin-bottom: 15px;">
+          <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+          <li class=""><a href="#projects" data-toggle="tab">Projects</a></li>
+          <li class=""><a href="#blog" data-toggle="tab">Blog</a></li>
+          <li class=""><a href="#impossibleList" data-toggle="tab>Impossible List</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane" id="projects">
+            <div class="row">
+              <span class="slide1">
+                <div class="col-md-4">
+                  <div class="img-slide" data-id="1">
+                    <img src="img/flowable.png" class="img-thumbnail img-active" data-id="1">
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="img-slide" data-id="2">
+                    <img src="img/swiftpost.png" class="img-thumbnail" data-id="2">
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="img-slide" data-id="3">
+                    <img src="img/tsh.png" class="img-thumbnail" data-id="3">
+                  </div>
+                </div>
+              </span>
+
+              <span class="slide2" style="display: none;">
+                <div class="col-md-4">
+                  <div class="img-slide" data-id="4">
+                    <img src="img/site.png" class="img-thumbnail" data-id="4">
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="img-slide" data-id="5">
+                    <img src="img/pinterest.png" class="img-thumbnail" data-id="5">
+                  </div>
+                </div>
+              </span>
+            </div>
+
+            <center>
+              <i class="fa fa-circle fa-circle-1"></i>
+              <i class="fa fa-circle-o fa-circle-2"></i>
+            </center>
+
+            <div class="panel panel-default">
+              <div class="panel-body" style="padding-top: 0px; display: block;" id="proj1">
+                <h3>Flowable
+                  <span class="pull-right">
+                    <i class="fa fa-github"></i>&nbsp;&nbsp;
+                    <i class="fa fa-link"></i>&nbsp;&nbsp;
+                  </span>
+                </h3>
+                <p class="lead">An approval management system for enterprise.</p>
+                <p>Rolled out as a new project at Skalable to replace email as the standard for business processes. Create intuitive, customizable workflows to facilitate getting a request for an intern, for example, through managers and directors.</p>
+                <span class="label label-info">Ruby</span>
+                <span class="label label-info">Rails</span>
+                <span class="label label-info">ActiveRecord</span>
+                <span class="label label-info">Single Table Inheritance</span>
+                <span class="label label-info">Nested Attributes</span>
+                <span class="label label-info">AJAX</span>
+              </div>
+
+              <div class="panel-body" style="padding-top: 0px; display: none;" id="proj2">
+                <h3>Swiftpost
+                  <span class="pull-right text-default">
+                    
+                    <a style="cursor: pointer" onclick="window.location='https://github.com/rdhanaraj/swiftpost'"><i class="fa fa-github"></i></a>&nbsp;&nbsp;
+                    <a style="cursor: pointer" onclick="window.location='https://swiftpost.herokuapp.com'"><i class="fa fa-link"></i></a>&nbsp;&nbsp;
+                  </span>
+                </h3>
+                <p class="lead">A targeted spam machine.</p>
+                <p>The only direct (physical) mail manager that finds customers for you. Simply upload a pdf and select a demographic. Congrats! Ten males between 20 and 30 in San Jose will now receive your Namecheap coupon.  Built at <a style="cursor: pointer" onclick="window.location='http://hacktech.io'">HackTECH</a> '14.</p>
+                <span class="label label-info">Ruby</span>
+                <span class="label label-info">Rails</span>
+                <span class="label label-info">Nokogiri</span>
+                <span class="label label-info">Paperclip</span>
+                <span class="label label-info">Amazon S3</span>
+                <span class="label label-info">Stripe</span>
+              </div>
+
+
+              <div class="panel-body" style="padding-top: 0px; display: none;" id="proj3">
+                <h3>tsh (TextShell)
+                  <span class="pull-right text-default">
+                    <a style="cursor: pointer" onclick="window.location='https://github.com/rdhanaraj/tsh'"><i class="fa fa-github"></i></a>&nbsp;&nbsp;
+                    <a style="cursor: pointer" onclick="window.location='http://www.gettsh.com/'"><i class="fa fa-link"></i></a>&nbsp;&nbsp;
+                  </span>
+                </h3>
+                <p class="lead">A command line for web services.</p>
+                <p>
+                 Simply text your command to the given number and your command will be executed and served back to you. Currently supports Facebook, mail, weather, stocks, translations and more. Awarded <a href="http://venturebeat.com/2014/03/10/teenagers-take-over-paypal-hold-their-own-hackathon/" class="dotty">2nd</a> at <a href="http://hshacks.com" class="dotty">HSHacks</a> and 1st for <a href="http://CreateHS.com" class="dotty">CreateHS</a>.</p>
+                <span class="label label-info">Ruby</span>
+                <span class="label label-info">Sinatra/Rails</span>
+                <span class="label label-info">OAuth</span>
+                <span class="label label-info">Twilio</span>
+
+                <br>
+
+                <span class="label label-default">Facebook</span>
+                <span class="label label-default">Gmail</span>
+                <span class="label label-default">Coinbase</span>
+                <span class="label label-default">Wunderground</span>
+                <span class="label label-default">Bing Translate</span>
+                <span class="label label-default">Yahoo Finance</span>
+              </div>
+
+              <div class="panel-body" style="padding-top: 0px; display: none;" id="proj4">
+                <h3>Portfolio
+                  <span class="pull-right text-default">
+                    <a style="cursor: pointer" onclick="window.location='https://github.com/rdhanaraj/rdhanaraj.github.io"><i class="fa fa-github'"></i></a>&nbsp;&nbsp;
+                    <a style="cursor: pointer" onclick="window.location='https://rishi.io'"><i class="fa fa-link"></i></a>&nbsp;&nbsp;
+                  </span>
+                </h3>
+                <p class="lead">A simple and elegant portfolio site.</p>
+                <p>Features two tabs as seen above. The slideshow is made from scratch with JQuery, and the interface is intended to be as sparse as possible, using Bootstrap.</p>
+                <span class="label label-info">Bootstrap</span>
+                <span class="label label-info">JQuery</span>
+                <span class="label label-info">Font Awesome</span>
+                <span class="label label-info">Github Pages</span>
+
+              </div>
+
+              <div class="panel-body" style="padding-top: 0px; display: none;" id="proj5">
+                <h3>Pinterest Plus
+                  <span class="pull-right text-default">
+                    <a style="cursor: pointer" onclick="window.location='https://github.com/rdhanaraj/pinterest'"><i class="fa fa-github"></i></a>&nbsp;&nbsp;
+                    <a style="cursor: pointer" onclick="window.location='http://bit.ly/1srp00K'"><i class="fa fa-link"></i></a>&nbsp;&nbsp;
+                  </span>
+                </h3>
+                <p class="lead">A simple Pinterest Clone.</p>
+                <p></p>
+                <span class="label label-info">Ruby</span>
+                <span class="label label-info">Rails</span>
+                <span class="label label-info">Amazon S3</span>
+                <span class="label label-info">Paperclip</span>
+                <span class="label label-info">Masonry</span>
+                <span class="label label-info">Solr</span>
+                <span class="label label-info">Heroku</span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="tab-pane wrapper home-text active" id="home">
+
+
+
+                <div class="panel panel-default" style="padding: 15px">
+                  <span style="font-size: 30px; padding: 0px; color: black; background-color: white; font-family: Inconsolata;">
+                    <hr style="margin-top: 5px;">$ echo Hey there!<hr>
+                  </span>
+
+                <span style="font-size: 18px">
+                <p>
+                  I'm Ricky &amp; I love to explore. <a style="cursor: pointer;" onclick="window.location='http://www.youtube.com/watch?v=69V__a49xtw'" class="dotty">Silicon Valley</a>. I do work in iOS with Objective-C and Rack-based frameworks with Ruby.
+                </p>
+
+                <p>
+                  I currently attend <a style="cursor: pointer;" onclick="window.location.href='http://www.chs.fuhsd.org/'" class="dotty">Cupertino High School</a> as a senior and worked at <a style="cursor: pointer;" onclick="window.location='http://skalabletech.com/'" class="dotty">Skalable</a> as a software development intern.
+                </p>
+
+                <p>
+                  Recognize me? I run a <a style="cursor: pointer;" onclick="window.location.href='http://tinovation.org'" class="dotty">student computer science organization</a> and co-organized a <a style="cursor: pointer;" onclick="window.location='http://www.hshacks.com'" class="dotty">hackathon</a> or <a style="cursor: pointer;" onclick="window.location.href='http://hackgeny.com'" class="dotty">two</a>.
+                </p>
+
+                <p>
+                  Looking for a freelance or intern? <a style="cursor: pointer;" onclick="window.location.href='https://www.dropbox.com/s/urg3c4wr9fb5tkl/resume.pdf?dl=0'" class="dotty">Hire me</a>.
+                </p>
+                
+                <p>
+                  Want to drop me a line? <a onclick="window.location.href='mailto:rishid97@gmail.com?Subject=Hey%20there!'" class="dotty">Email me</a>.
+                </p>
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+ 
 </html>
